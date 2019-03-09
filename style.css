@@ -1,0 +1,52 @@
+body {
+background: url("bg.png") repeat scroll center top;
+text-align:center;
+font-weight:bold;
+}
+
+input{margin: 0 auto; font-size:17px;}
+h1{
+color:#166bba;
+font-family:"Open Sans",Helvetica,Arial,sans-serif;
+font-weight:bold;
+min-width:200px;
+}
+
+.btn-success {
+background-color: #5cb85c;
+border-color: #4cae4c;
+color: #fff;
+font-size: 21px !important;
+font-weight: bold;
+height: 50px;
+width: 170px;
+}
+
+.alert-warning{
+font-size:18px;
+}
+
+.alert{
+font-size:18px;
+}
+
+.form-control {
+border: 1px solid #b2dee7;
+color:#bf1010;
+}
+
+@media(min-width:320px){input[type=text]{width:95%; height: 45px; font-size:18px;}}
+@media(min-width:768px){input[type=text]{width:80%; height: 45px; font-size:18px;}}
+@media(min-width:992px){input[type=text]{width:60%; height: 45px; font-size:18px;}}
+@media(min-width:1200px){input[type=text]{width:60%; height: 45px; font-size:18px;}}
+
+.form-control::-moz-placeholder{color:#000;}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {input[type=text]{width:80%;}}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {input[type=text]{width:55%;}}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {input[type=text]{width:55%;}}
